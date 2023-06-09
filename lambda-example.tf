@@ -1,4 +1,4 @@
-resource "aws_lambda_function" "build_function" {
+resource "aws_lambda_function" "test_lambda" {
   function_name   = "${var.lambda_name}-${var.env_name}"
   description     = "Lambda funtion created using terraform"
   timeout         = var.timeout
